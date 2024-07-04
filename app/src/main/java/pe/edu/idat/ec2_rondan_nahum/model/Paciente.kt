@@ -1,4 +1,8 @@
 package pe.edu.idat.ec2_rondan_nahum.model
 
-class Paciente {
-}
+data class Paciente(
+    var nombre: String,
+    var edad: Int,
+    var genero: String,
+    var fechaRegistro: String
+)
